@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Критерії оцінювання з інформатики</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased p-4 md:p-8">
+  <div class="max-w-5xl mx-auto space-y-8">
+    
+    <!-- Заголовок -->
+    <header class="bg-white p-6 rounded-xl shadow-md border border-gray-100">
+      <h1 class="text-2xl md:text-3xl font-bold text-blue-700 mb-2">
+        Критерії оцінювання навчальних досягнень учнів з інформатики
+      </h1>
+      <p class="text-gray-600 text-sm md:text-base">
+        У системі загальної освіти. Оцінювання здійснюється за двома аспетами: рівень володіння теоретичними знаннями та здатність до застосування матеріалу у практичній діяльності.
+      </p>
+    </header>
+
+    <!-- Складові досягнень -->
+    <section class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100">
+        <h2 class="text-xl font-semibold text-blue-600 mb-3">Теоретична база знань</h2>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Уявлення про інформацію, її властивості, процеси та системи; загальні принципи розв'язування задач за допомогою комп'ютера; побудова інформаційних моделей; основи алгоритмізації і програмування; принципи будови комп'ютера; пошук відомостей у мережі Інтернет.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100">
+        <h2 class="text-xl font-semibold text-blue-600 mb-3">Практичні навички</h2>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Робота з пристроями введення-виведення, ОС, архіваторами, антивірусами, текстовими та графічними редакторами, презентаціями, табличними процесорами, СУБД, браузерами, електронною поштою; складання та реалізація найпростіших алгоритмів і програм.
+        </p>
+      </div>
+    </section>
+
+    <!-- Таблиця критеріїв -->
+    <section class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="bg-blue-600 text-white font-semibold">
+              <th class="p-4 border-b">Рівень</th>
+              <th class="p-4 border-b text-center">Бал</th>
+              <th class="p-4 border-b">Критерії оцінювання</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <!-- І. Початковий -->
+            <tr class="bg-red-50/50">
+              <td class="p-4 font-semibold text-red-700 whitespace-nowrap" rowspan="3">І. Початковий</td>
+              <td class="p-4 font-bold text-center text-red-600">1</td>
+              <td class="p-4">Розпізнає окремі об'єкти, явища і факти предметної галузі; знає і виконує правила техніки безпеки під час роботи з комп'ютерною технікою.</td>
+            </tr>
+            <tr class="bg-red-50/50">
+              <td class="p-4 font-bold text-center text-red-600">2</td>
+              <td class="p-4">Розпізнає окремі об'єкти, явища і факти та може фрагментарно відтворити знання про них.</td>
+            </tr>
+            <tr class="bg-red-50/50">
+              <td class="p-4 font-bold text-center text-red-600">3</td>
+              <td class="p-4">Має фрагментарні знання при незначному загальному їх обсязі (менше половини) при відсутності сформованих умінь та навичок.</td>
+            </tr>
+
+            <!-- ІІ. Середній -->
+            <tr class="bg-yellow-50/50">
+              <td class="p-4 font-semibold text-yellow-700 whitespace-nowrap" rowspan="3">ІІ. Середній</td>
+              <td class="p-4 font-bold text-center text-yellow-600">4</td>
+              <td class="p-4">Може відтворити значну (більше половини) частину матеріалу репродуктивно; виконує просте завдання з допомогою вчителя; має елементарні, нестійкі навички.</td>
+            </tr>
+            <tr class="bg-yellow-50/50">
+              <td class="p-4 font-bold text-center text-yellow-600">5</td>
+              <td class="p-4">Відтворює значну частину матеріалу з елементами логічних зв'язків з допомогою вчителя; має стійкі навички виконання елементарних дій.</td>
+            </tr>
+            <tr class="bg-yellow-50/50">
+              <td class="p-4 font-bold text-center text-yellow-600">6</td>
+              <td class="p-4">Знайомий з основними поняттями; самостійно відтворює значну частину матеріалу; виконує просте завдання за зразком; має стійкі основні навички.</td>
+            </tr>
+
+            <!-- ІІІ. Достатній -->
+            <tr class="bg-blue-50/50">
+              <td class="p-4 font-semibold text-blue-700 whitespace-nowrap" rowspan="3">ІІІ. Достатній</td>
+              <td class="p-4 font-bold text-center text-blue-600">7</td>
+              <td class="p-4">Застосовує матеріал у стандартних ситуаціях; пояснює основні процеси та наводить власні приклади; виконує навчальні завдання за програмою.</td>
+            </tr>
+            <tr class="bg-blue-50/50">
+              <td class="p-4 font-bold text-center text-blue-600">8</td>
+              <td class="p-4">Аналізує матеріал, самостійно застосовує його на практиці та контролює діяльність; виправляє вказані помилки; використовує довідку.</td>
+            </tr>
+            <tr class="bg-blue-50/50">
+              <td class="p-4 font-bold text-center text-blue-600">9</td>
+              <td class="p-4">Вільно володіє матеріалом, систематизує відомості; самостійно знаходить і виправляє помилки; обирає раціональний спосіб виконання; вільно володіє клавіатурою.</td>
+            </tr>
+
+            <!-- IV. Високий -->
+            <tr class="bg-green-50/50">
+              <td class="p-4 font-semibold text-green-700 whitespace-nowrap" rowspan="3">IV. Високий</td>
+              <td class="p-4 font-bold text-center text-green-600">10</td>
+              <td class="p-4">Знання повністю відповідають програмі. Володіє міцними знаннями, знаходить додаткові відомості, судження логічні; має навички управління ІС.</td>
+            </tr>
+            <tr class="bg-green-50/50">
+              <td class="p-4 font-bold text-center text-green-600">11</td>
+              <td class="p-4">Володіє узагальненими знаннями, планує діяльність; використовує знання у нестандартних ситуаціях; виконує завдання поза програмою.</td>
+            </tr>
+            <tr class="bg-green-50/50">
+              <td class="p-4 font-bold text-center text-green-600">12</td>
+              <td class="p-4">Має системні знання та продуктивно їх використовує; вільно застосовує нові ІТ для розв'язування задач; керує ІС у нестандартних ситуаціях.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
